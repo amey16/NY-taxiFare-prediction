@@ -25,5 +25,12 @@ git clone "https://github.com/amey16/NY-taxiFare-prediction.git"
     - A very useful thing that automatically decides which regressor/classifier is the best
     - Just be careful t choose affordable params else you might have to wait 2 days 
     - [To read about it](http://epistasislab.github.io/tpot/using/)
+
+- Storing the dataset in mongodb
+    - the finaldata was saved in mongodb for later use
+    - data was converted into json key value pairs and the pairs were added using insertmany 
+    - To do so first you have to download the mongodb compas [website](https://www.mongodb.com/try/download/community)
+    - click on the on premises/server option then download according to your laptop configuration 
+    - For rest follow the steps done in part1.ipynb
     
 - Just a extra comment (Never work in this large datasets with pc configurations like mine) :wink:
